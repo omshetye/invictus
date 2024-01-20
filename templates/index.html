@@ -4,10 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
   <form action="{{url_for("summarize")}}" method="post">
-    <textarea name="url_search" placeholder="Enter a URL ",  required="required"></textarea>
+    <textarea name="url_search" placeholder="Enter a URL" required></textarea>
     <button type="submit">Summarize</button>
   </form>
   <h3>Summarized Text: </h3>
